@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MyFirst } from './my-first/my-first.component';
 import { MyFirst2Component } from './my-first-2/my-first-2.component';
+import { CoursesModule } from './courses/courses.module';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { MyFirst2Component } from './my-first-2/my-first-2.component';
     MyFirst2Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CoursesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
