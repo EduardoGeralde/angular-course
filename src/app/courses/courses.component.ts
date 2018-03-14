@@ -9,7 +9,7 @@ export class CoursesComponent implements OnInit {
 
   portalName: string;
 
-  cursos: string[]= ['Java', 'Ext JS', 'Angular'];
+  courses: string[];
 
   constructor() { 
     this.portalName = 'http://loiane.training';
