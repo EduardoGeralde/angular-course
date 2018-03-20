@@ -8,6 +8,9 @@ import { MyFirst } from './my-first/my-first.component';
 import { MyFirst2Component } from './my-first-2/my-first-2.component';
 import { CoursesModule } from './courses/courses.module';
 import { DataBindingComponent } from './data-binding/data-binding.component';
+import { InputPropertyComponent } from './input-property/input-property.component';
+import { OutputPropertyComponent } from './output-property/output-property.component';
+import { CicloComponent } from './ciclo/ciclo.component';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
     AppComponent,
     MyFirst,
     MyFirst2Component,
-    DataBindingComponent
+    DataBindingComponent,
+    InputPropertyComponent,
+    OutputPropertyComponent,
+    CicloComponent
   ],
   imports: [
     BrowserModule,
