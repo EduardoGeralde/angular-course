@@ -4,13 +4,21 @@
     Welcome to {{ title }}!
   </h1>
 </div>
+<br>
 
 <my-first-component></my-first-component>
+<br>
 
 <app-my-first-2></app-my-first-2>
+<br>
 
 <app-courses></app-courses>
+<br>
 
 <app-data-binding></app-data-binding>
+<br>
 
-<ciclo></ciclo>
+<ciclo [valorInicial]="valor" *ngIf="!deletarCiclo" ></ciclo>
+<button (click)="mudarValor()">Mudar Valor</button>
+<button (click)="destruirCiclo()">Deletar</button>
+<br>
