@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OperadorElvisComponent implements OnInit {
 
+
+  tarefa: any = {
+    desc: 'Descrição da Tarefa',
+    responsavel: {
+      usuario: null
+    }
+  };
+
   constructor() { }
 
   ngOnInit() {
