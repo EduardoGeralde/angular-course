@@ -11,9 +11,10 @@ export class FundoAmareloDirective {
   ) {
     // console.log(this._elementRef);
     // this._elementRef.nativeElement.style.backgroundColor = 'yellow';
-    this._renderer.setElementStyle(this._elementRef.nativeElement, backgroundColor, yellow);
-
-
+    this._renderer.setElementStyle(
+      this._elementRef.nativeElement,
+      'background-color',
+      'yellow');
   }
 
 }
