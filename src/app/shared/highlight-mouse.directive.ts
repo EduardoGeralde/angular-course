@@ -5,12 +5,12 @@ import { Directive, HostListener, ElementRef, Renderer, HostBinding } from '@ang
 })
 export class HighlightMouseDirective {
 
-/*@HostBinding ('style.backgroundColor') backgroundColor: string;*/
+  @HostBinding ('style.backgroundColor') backgroundColor: string;
 
-  @HostBinding ('style.backgroundColor') get setColor() {
+/*@HostBinding ('style.backgroundColor') get setColor() {
     return this.backgroundColor;
   }
-  private backgroundColor: string;
+  private backgroundColor: string;*/
 
   @HostListener ('mouseenter') onMouseOver() {
     /*this._renderer.setElementStyle(this._elementRef.nativeElement, 'background-color', 'yellow');*/
