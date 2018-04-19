@@ -17,8 +17,19 @@
 <div *ngIf="mostrarCursos">
   Lista de cursos aqui.
 </div>
-<div *ngIf="!mostrarCursos">
+<div *ngElse="mostrarCursos">
   Não existem cursos para serem listados.
 </div>
 
-<button (click)="onMostrarCursos()">Mostrar ou esconder cursos</button>
+
+<button (click)="onMostrarCursos()">
+  Mostrar ou esconder cursos
+</button>
+
+<!-- Para Angular v4+, usar <ng-template></ng-template> no lugar de <template></template> -->
+<ng-template [ngElse]= "mostrarCursos">
+  <div>
+    Não existem cursos para serem listados.
+  </div>
+</ng-template>
+
