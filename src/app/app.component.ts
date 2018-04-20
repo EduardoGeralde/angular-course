@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 
-  valor:number = 5;
+  valor: number = 5;
 
   deletarCiclo: boolean = false;
 
-  mudarValor(){
+  mudarValor() {
     this.valor ++;
   }
 

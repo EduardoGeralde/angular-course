@@ -12,7 +12,7 @@ export class CoursesComponent implements OnInit {
 
   courses: string[];
 
-  constructor(private coursesService: CoursesService) { 
+  constructor(private coursesService: CoursesService) {
     this.portalName = 'http://loiane.training';
 
     this.courses = coursesService.getCourses();

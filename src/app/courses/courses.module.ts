@@ -16,7 +16,7 @@ import { CoursesService } from './courses.service';
   exports: [
     CoursesComponent
   ],
-  providers:[
+  providers: [
     CoursesService
   ]
 })

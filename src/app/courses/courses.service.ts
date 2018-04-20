@@ -5,7 +5,7 @@ export class CoursesService {
 
   constructor() { }
 
-  getCourses(){
+  getCourses() {
     return ['Java', 'Ext JS', 'Angular'];
   }
 
