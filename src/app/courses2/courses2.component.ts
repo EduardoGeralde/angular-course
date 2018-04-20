@@ -10,10 +10,10 @@ import {Courses2Service} from './courses2.service';
 export class Courses2Component implements OnInit {
 
   courses: string[] = [];
-  courses2Service: Courses2Service;
+  // courses2Service: Courses2Service;
 
-  constructor() {
-    this.courses2Service = new Courses2Service;
+  constructor(private courses2Service: Courses2Service) {
+    // this.courses2Service = _courses2Service;
   }
 
   ngOnInit() {
