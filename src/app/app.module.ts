@@ -23,9 +23,9 @@ import { DiretivasCustomizadasComponent } from './diretivas-customizadas/diretiv
 import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
 import { HighlightDirective } from './shared/highlight.directive';
 import { NgElseDirective } from './shared/ng-else.directive';
-import { Courses2Component } from './courses2/courses2.component';
 import {Courses2Service} from './courses2/courses2.service';
-import { CreateCourseComponent } from './create-course/create-course.component';
+import {CreateCourseModule} from './create-course/create-course.module';
+import {Courses2Module} from './courses2/courses2.module';
 
 
 @NgModule({
@@ -48,16 +48,16 @@ import { CreateCourseComponent } from './create-course/create-course.component';
     DiretivasCustomizadasComponent,
     HighlightMouseDirective,
     HighlightDirective,
-    NgElseDirective,
-    Courses2Component,
-    CreateCourseComponent
+    NgElseDirective
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    CoursesModule
+    CoursesModule,
+    CreateCourseModule,
+    Courses2Module
   ],
-  providers: [Courses2Service],
+  //providers: [Courses2Service],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
