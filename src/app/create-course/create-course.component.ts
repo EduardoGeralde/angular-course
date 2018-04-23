@@ -18,7 +18,7 @@ export class CreateCourseComponent implements OnInit {
     this.courses = this.courses2Service.getCourses();
   }
 
-  onAddCourse(course: string){
+  onAddCourse(course: string) {
     this.courses2Service.addCourse(course);
   }
 
