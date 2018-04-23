@@ -1,3 +1,4 @@
+import { CourseDetailsComponent } from './../courses/course-details/course-details.component';
 import { Component, OnInit } from '@angular/core';
 
 import {Courses2Service} from './courses2.service';
@@ -19,6 +20,10 @@ export class Courses2Component implements OnInit {
 
   ngOnInit() {
     this.courses = this.courses2Service.getCourses();
+
+    Courses2Service.createNewCourse.subscribe(
+      course => this.courses.push(course)
+    );
   }
 
 }

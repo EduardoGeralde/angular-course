@@ -1,11 +1,15 @@
-import { Injectable } from '@angular/core';
+import { Injectable, EventEmitter } from '@angular/core';
 
 @Injectable()
 export class Courses2Service {
 
+    static createNewCourse = new EventEmitter <string>();
+
+    sendCreatedCourse = new EventEmitter <string>();
+
     courses: string [] = ['Angular 2', 'Java', 'Phonegap'];
 
-    constructor(){
+    constructor() {
         console.log('Courses2Service');
     }
 
@@ -13,7 +17,9 @@ export class Courses2Service {
         return this.courses;
     }
 
-    addCourse(course: string){
+    addCourse(course: string) {
         this.courses.push(course);
+        this.sendCreatedCourse.emit(course);
+        Courses2Service.createNewCourse.emit(course);
     }
 }
