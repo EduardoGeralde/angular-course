@@ -27,6 +27,7 @@ import {Courses2Service} from './courses2/courses2.service';
 import {CreateCourseModule} from './create-course/create-course.module';
 import {Courses2Module} from './courses2/courses2.module';
 import { LogService } from './shared/log.service';
+import { ExemplosPipesComponent } from './exemplos-pipes/exemplos-pipes.component';
 
 
 @NgModule({
@@ -49,7 +50,8 @@ import { LogService } from './shared/log.service';
     DiretivasCustomizadasComponent,
     HighlightMouseDirective,
     HighlightDirective,
-    NgElseDirective
+    NgElseDirective,
+    ExemplosPipesComponent
   ],
   imports: [
     BrowserModule,
