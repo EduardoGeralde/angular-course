@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
+import {registerLocaleData} from '@angular/common';
 
 
 import { AppComponent } from './app.component';
@@ -29,6 +30,10 @@ import {Courses2Module} from './courses2/courses2.module';
 import { LogService } from './shared/log.service';
 import { ExemplosPipesComponent } from './exemplos-pipes/exemplos-pipes.component';
 import { CamelCasePipe } from './camel-case.pipe';
+import localePt from '@angular/common/locales/pt';
+import { SettingsService } from './settings.service';
+
+registerLocaleData(localePt, 'pt-BR');
 
 
 @NgModule({
@@ -62,8 +67,20 @@ import { CamelCasePipe } from './camel-case.pipe';
     CreateCourseModule,
     Courses2Module
   ],
-  providers: [LogService],
-  //providers: [Courses2Service],
+  providers: [
+    LogService,
+    SettingsService,
+    {
+      provide: LOCALE_ID,
+      deps: [SettingsService],
+      useFactory: (settingsService) => settingsService.getLocale()
+    }
+    /*{
+      provide: LOCALE_ID,
+     useValue: 'pt-BR'
+    }*/
+  ],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
