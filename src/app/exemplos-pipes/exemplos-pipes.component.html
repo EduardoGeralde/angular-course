@@ -1,10 +1,10 @@
 <h5>Pipes examples</h5>
 
-<p>Title: {{book.title}}</p>
-<p>Rating: {{book.rating}}</p>
-<p>Number of Pages: {{book.pageNumber}}</p>
-<p>Price: {{book.price}}</p>
-<p>Release Date: {{book.releaseDate}}</p>
+<p>Title: {{book.title | uppercase | lowercase}}</p>
+<p>Rating: {{book.rating | number:'2.1-2'}}</p>
+<p>Number of Pages: {{book.pageNumber | number}}</p>
+<p>Price: {{book.price | currency:'BRL':true}}</p>
+<p>Release Date: {{book.releaseDate | date:'dd-MMM-yyyy'}}</p>
 <p>URL: {{book.url}}</p>
 <br>
-<p>Rating: {{book}}</p>
+<p>Book: {{book | json}}</p>
