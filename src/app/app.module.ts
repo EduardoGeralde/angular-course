@@ -28,6 +28,7 @@ import {CreateCourseModule} from './create-course/create-course.module';
 import {Courses2Module} from './courses2/courses2.module';
 import { LogService } from './shared/log.service';
 import { ExemplosPipesComponent } from './exemplos-pipes/exemplos-pipes.component';
+import { CamelCasePipe } from './camel-case.pipe';
 
 
 @NgModule({
@@ -51,7 +52,8 @@ import { ExemplosPipesComponent } from './exemplos-pipes/exemplos-pipes.componen
     HighlightMouseDirective,
     HighlightDirective,
     NgElseDirective,
-    ExemplosPipesComponent
+    ExemplosPipesComponent,
+    CamelCasePipe
   ],
   imports: [
     BrowserModule,
