@@ -32,6 +32,7 @@ import { ExemplosPipesComponent } from './exemplos-pipes/exemplos-pipes.componen
 import { CamelCasePipe } from './camel-case.pipe';
 import localePt from '@angular/common/locales/pt';
 import { SettingsService } from './settings.service';
+import { FiltroArrayPipe } from './filtro-array.pipe';
 
 registerLocaleData(localePt, 'pt-BR');
 
@@ -58,7 +59,8 @@ registerLocaleData(localePt, 'pt-BR');
     HighlightDirective,
     NgElseDirective,
     ExemplosPipesComponent,
-    CamelCasePipe
+    CamelCasePipe,
+    FiltroArrayPipe
   ],
   imports: [
     BrowserModule,

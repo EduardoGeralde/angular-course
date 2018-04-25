@@ -8,3 +8,9 @@
 <p>URL: {{book.url}}</p>
 <br>
 <p>Book: {{book | json}}</p>
+
+<ul>
+    <li *ngFor="let bk of books | filtroArray">
+        {{bk}}
+    </li>
+</ul>
