@@ -9,8 +9,14 @@
 <br>
 <p>Book: {{book | json}}</p>
 
+<input type="text" [(ngModel)]="filtro">
+
+<br>
+<input type="text" #newValue>
+<button (click)="addCourse(newValue.value)">Add Course</button>
+
 <ul>
-    <li *ngFor="let bk of books | filtroArray">
+    <li *ngFor="let bk of books | filtroArray:filtro">
         {{bk}}
     </li>
 </ul>
