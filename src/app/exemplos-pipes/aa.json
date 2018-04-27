@@ -1,0 +1,562 @@
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20588,\"conciliated\":true,\"acquirerDiscountValue\":41.40,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"067733\",\"cardBrand\":\"MASTERCARD\",\"customerId\":1120,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":1458.60,\"processingDate\":\"2018-04-26T00:00:00.000-0300\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":3,\"transactionDate\":\"2018-04-26\",\"transactionHour\":\"12:08:53\",\"transactionNsu\":100041518343,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":1500.00,\"truncatedCardNumber\":\"000521524XXXXXX4017\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20588,\"conciliated\":true,\"acquirerDiscountValue\":41.40,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"067733\",\"cardBrand\":\"MASTERCARD\",\"customerId\":1120,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":1458.60,\"processingDate\":\"2018-04-26T00:00:00.000-0300\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":3,\"transactionDate\":\"2018-04-26\",\"transactionHour\":\"12:08:53\",\"transactionNsu\":100041518343,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":1500.00,\"truncatedCardNumber\":\"000521524XXXXXX4017\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20588"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20532,\"conciliated\":true,\"acquirerDiscountValue\":0.20,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"342606\",\"cardBrand\":\"VISA\",\"customerId\":800,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":9.80,\"processingDate\":\"2018-04-26\",\"productType\":\"DEBIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-25\",\"transactionHour\":\"11:50:06\",\"transactionNsu\":100041426389,\"transactionStatus\":\"LIQUIDADA\",\"transactionValue\":10.00,\"truncatedCardNumber\":\"000498442XXXXXX5852\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20532,\"conciliated\":true,\"acquirerDiscountValue\":0.20,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"342606\",\"cardBrand\":\"VISA\",\"customerId\":800,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":9.80,\"processingDate\":\"2018-04-26\",\"productType\":\"DEBIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-25\",\"transactionHour\":\"11:50:06\",\"transactionNsu\":100041426389,\"transactionStatus\":\"LIQUIDADA\",\"transactionValue\":10.00,\"truncatedCardNumber\":\"000498442XXXXXX5852\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20532"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20430,\"conciliated\":true,\"acquirerDiscountValue\":7.54,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"084090\",\"cardBrand\":\"MASTERCARD\",\"customerId\":1031,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":252.46,\"processingDate\":\"2018-04-25\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-24\",\"transactionHour\":\"19:46:50\",\"transactionNsu\":100041395800,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":260.00,\"truncatedCardNumber\":\"000514945XXXXXX7224\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20430,\"conciliated\":true,\"acquirerDiscountValue\":7.54,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"084090\",\"cardBrand\":\"MASTERCARD\",\"customerId\":1031,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":252.46,\"processingDate\":\"2018-04-25\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-24\",\"transactionHour\":\"19:46:50\",\"transactionNsu\":100041395800,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":260.00,\"truncatedCardNumber\":\"000514945XXXXXX7224\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20430"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20520,\"conciliated\":true,\"acquirerDiscountValue\":1.42,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"081612\",\"cardBrand\":\"MASTERCARD\",\"customerId\":853,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":47.33,\"processingDate\":\"2018-04-26\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-25\",\"transactionHour\":\"19:49:44\",\"transactionNsu\":100041480173,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":48.75,\"truncatedCardNumber\":\"000541555XXXXXX7814\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20520,\"conciliated\":true,\"acquirerDiscountValue\":1.42,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"081612\",\"cardBrand\":\"MASTERCARD\",\"customerId\":853,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":47.33,\"processingDate\":\"2018-04-26\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-25\",\"transactionHour\":\"19:49:44\",\"transactionNsu\":100041480173,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":48.75,\"truncatedCardNumber\":\"000541555XXXXXX7814\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20520"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20458,\"conciliated\":true,\"acquirerDiscountValue\":1.76,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"313785\",\"cardBrand\":\"MASTERCARD\",\"customerId\":8,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":88.24,\"processingDate\":\"2018-04-25\",\"productType\":\"DEBIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-24\",\"transactionHour\":\"22:31:37\",\"transactionNsu\":100041404066,\"transactionStatus\":\"LIQUIDADA\",\"transactionValue\":90.00,\"truncatedCardNumber\":\"000544731XXXXXX4492\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20458,\"conciliated\":true,\"acquirerDiscountValue\":1.76,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"313785\",\"cardBrand\":\"MASTERCARD\",\"customerId\":8,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":88.24,\"processingDate\":\"2018-04-25\",\"productType\":\"DEBIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-24\",\"transactionHour\":\"22:31:37\",\"transactionNsu\":100041404066,\"transactionStatus\":\"LIQUIDADA\",\"transactionValue\":90.00,\"truncatedCardNumber\":\"000544731XXXXXX4492\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20458"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20534,\"conciliated\":true,\"acquirerDiscountValue\":2.86,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"167341\",\"cardBrand\":\"MASTERCARD\",\"customerId\":5,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":147.14,\"processingDate\":\"2018-04-26\",\"productType\":\"DEBIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-25\",\"transactionHour\":\"12:12:55\",\"transactionNsu\":100041429383,\"transactionStatus\":\"LIQUIDADA\",\"transactionValue\":150.00,\"truncatedCardNumber\":\"000549167XXXXXX5035\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20534,\"conciliated\":true,\"acquirerDiscountValue\":2.86,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"167341\",\"cardBrand\":\"MASTERCARD\",\"customerId\":5,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":147.14,\"processingDate\":\"2018-04-26\",\"productType\":\"DEBIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-25\",\"transactionHour\":\"12:12:55\",\"transactionNsu\":100041429383,\"transactionStatus\":\"LIQUIDADA\",\"transactionValue\":150.00,\"truncatedCardNumber\":\"000549167XXXXXX5035\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20534"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20456,\"conciliated\":true,\"acquirerDiscountValue\":4.22,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"358970\",\"cardBrand\":\"VISA\",\"customerId\":294,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":215.78,\"processingDate\":\"2018-04-25\",\"productType\":\"DEBIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-24\",\"transactionHour\":\"20:59:40\",\"transactionNsu\":100041400696,\"transactionStatus\":\"LIQUIDADA\",\"transactionValue\":220.00,\"truncatedCardNumber\":\"000476608XXXXXX5101\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20456,\"conciliated\":true,\"acquirerDiscountValue\":4.22,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"358970\",\"cardBrand\":\"VISA\",\"customerId\":294,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":215.78,\"processingDate\":\"2018-04-25\",\"productType\":\"DEBIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-24\",\"transactionHour\":\"20:59:40\",\"transactionNsu\":100041400696,\"transactionStatus\":\"LIQUIDADA\",\"transactionValue\":220.00,\"truncatedCardNumber\":\"000476608XXXXXX5101\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20456"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20525,\"conciliated\":true,\"acquirerDiscountValue\":9.18,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"693024\",\"cardBrand\":\"MASTERCARD\",\"customerId\":120,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":350.82,\"processingDate\":\"2018-04-26\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-25\",\"transactionHour\":\"19:39:30\",\"transactionNsu\":100041479220,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":360.00,\"truncatedCardNumber\":\"000548293XXXXXX3451\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20525,\"conciliated\":true,\"acquirerDiscountValue\":9.18,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"693024\",\"cardBrand\":\"MASTERCARD\",\"customerId\":120,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":350.82,\"processingDate\":\"2018-04-26\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-25\",\"transactionHour\":\"19:39:30\",\"transactionNsu\":100041479220,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":360.00,\"truncatedCardNumber\":\"000548293XXXXXX3451\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20525"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20497,\"conciliated\":true,\"acquirerDiscountValue\":2.55,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"985255\",\"cardBrand\":\"VISA\",\"customerId\":605,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":97.45,\"processingDate\":\"2018-04-25T00:00:00.000-0300\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":3,\"transactionDate\":\"2018-04-25\",\"transactionHour\":\"16:38:57\",\"transactionNsu\":100041461168,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":100.00,\"truncatedCardNumber\":\"000471703XXXXXX5247\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20497,\"conciliated\":true,\"acquirerDiscountValue\":2.55,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"985255\",\"cardBrand\":\"VISA\",\"customerId\":605,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":97.45,\"processingDate\":\"2018-04-25T00:00:00.000-0300\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":3,\"transactionDate\":\"2018-04-25\",\"transactionHour\":\"16:38:57\",\"transactionNsu\":100041461168,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":100.00,\"truncatedCardNumber\":\"000471703XXXXXX5247\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20497"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20596,\"conciliated\":true,\"acquirerDiscountValue\":0.78,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"R91168\",\"cardBrand\":\"MASTERCARD\",\"customerId\":800,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":26.22,\"processingDate\":\"2018-04-27\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-26\",\"transactionHour\":\"17:40:20\",\"transactionNsu\":100041561934,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":27.00,\"truncatedCardNumber\":\"000532930XXXXXX6129\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20596,\"conciliated\":true,\"acquirerDiscountValue\":0.78,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"R91168\",\"cardBrand\":\"MASTERCARD\",\"customerId\":800,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":26.22,\"processingDate\":\"2018-04-27\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-26\",\"transactionHour\":\"17:40:20\",\"transactionNsu\":100041561934,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":27.00,\"truncatedCardNumber\":\"000532930XXXXXX6129\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20596"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20598,\"conciliated\":true,\"acquirerDiscountValue\":0.79,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"665415\",\"cardBrand\":\"VISA\",\"customerId\":853,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":32.71,\"processingDate\":\"2018-04-27\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-26\",\"transactionHour\":\"17:56:54\",\"transactionNsu\":100041564543,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":33.50,\"truncatedCardNumber\":\"000453211XXXXXX4851\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20598,\"conciliated\":true,\"acquirerDiscountValue\":0.79,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"665415\",\"cardBrand\":\"VISA\",\"customerId\":853,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":32.71,\"processingDate\":\"2018-04-27\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-26\",\"transactionHour\":\"17:56:54\",\"transactionNsu\":100041564543,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":33.50,\"truncatedCardNumber\":\"000453211XXXXXX4851\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20598"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20591,\"conciliated\":true,\"acquirerDiscountValue\":2.23,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"298218\",\"cardBrand\":\"MASTERCARD\",\"customerId\":223,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":74.77,\"processingDate\":\"2018-04-27\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-26\",\"transactionHour\":\"14:37:13\",\"transactionNsu\":100041538033,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":77.00,\"truncatedCardNumber\":\"000552128XXXXXX2475\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20591,\"conciliated\":true,\"acquirerDiscountValue\":2.23,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"298218\",\"cardBrand\":\"MASTERCARD\",\"customerId\":223,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":74.77,\"processingDate\":\"2018-04-27\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-26\",\"transactionHour\":\"14:37:13\",\"transactionNsu\":100041538033,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":77.00,\"truncatedCardNumber\":\"000552128XXXXXX2475\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20591"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20598,\"conciliated\":true,\"acquirerDiscountValue\":0.79,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"665415\",\"cardBrand\":\"VISA\",\"customerId\":853,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":32.71,\"processingDate\":\"2018-04-27\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-26\",\"transactionHour\":\"17:56:54\",\"transactionNsu\":100041564543,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":33.50,\"truncatedCardNumber\":\"000453211XXXXXX4851\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20598,\"conciliated\":true,\"acquirerDiscountValue\":0.79,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"665415\",\"cardBrand\":\"VISA\",\"customerId\":853,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":32.71,\"processingDate\":\"2018-04-27\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-26\",\"transactionHour\":\"17:56:54\",\"transactionNsu\":100041564543,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":33.50,\"truncatedCardNumber\":\"000453211XXXXXX4851\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20598"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"posting-create\":{\"transactionId\":20592,\"conciliated\":true,\"acquirerDiscountValue\":3.36,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"791121\",\"cardBrand\":\"MASTERCARD\",\"customerId\":484,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":116.64,\"processingDate\":\"2018-04-27\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-26\",\"transactionHour\":\"12:28:43\",\"transactionNsu\":100041520985,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":120.00,\"truncatedCardNumber\":\"000533728XXXXXX0703\"}}",
+        "payload": "{\"posting-create\":{\"transactionId\":20592,\"conciliated\":true,\"acquirerDiscountValue\":3.36,\"earlyPaymentNetValue\":0.00,\"earlyPaymentTaxValue\":0.00,\"authorizationCode\":\"791121\",\"cardBrand\":\"MASTERCARD\",\"customerId\":484,\"settleDate\":null,\"settleFutureDate\":null,\"netValue\":116.64,\"processingDate\":\"2018-04-27\",\"productType\":\"CREDIT\",\"reducerCrossFrontierValue\":0.00,\"terminalNumber\":null,\"installments\":1,\"transactionDate\":\"2018-04-26\",\"transactionHour\":\"12:28:43\",\"transactionNsu\":100041520985,\"transactionStatus\":\"EM ABERTO\",\"transactionValue\":120.00,\"truncatedCardNumber\":\"000533728XXXXXX0703\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E102",
+                    "error-description": "Lançamento duplicado pelo transaction id 20592"
+                }
+            }
+        ]
+    }
+}
+
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"name\": \"ZUILA\", \"customer-id\": \"0\", \"ecommerce-id\": \"902\", \"products-list\": {\"111\": \"1\", \"222\": 0, \"333\": 0}, \"email\": \"rixvoip@gmail.com\"}",
+        "payload": "{\"name\": \"ZUILA\", \"customer-id\": \"0\", \"ecommerce-id\": \"902\", \"products-list\": {\"111\": \"1\", \"222\": 0, \"333\": 0}, \"email\": \"rixvoip@gmail.com\"}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E002",
+                    "error-description": "Afiliado com o parâmetro 0 não foi encontrado."
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"name\": \"samuel\", \"customer-id\": \"0\", \"ecommerce-id\": \"884\", \"products-list\": {\"111\": \"1\", \"222\": 0, \"333\": 0}, \"email\": \"caecampo@hotmail.com\"}",
+        "payload": "{\"name\": \"samuel\", \"customer-id\": \"0\", \"ecommerce-id\": \"884\", \"products-list\": {\"111\": \"1\", \"222\": 0, \"333\": 0}, \"email\": \"caecampo@hotmail.com\"}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E002",
+                    "error-description": "Afiliado com o parâmetro 0 não foi encontrado."
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"name\": \"Fernanda\", \"customer-id\": \"0\", \"ecommerce-id\": \"904\", \"products-list\": {\"111\": 0, \"222\": 0, \"333\": \"1\"}, \"email\": \"rica72017@gmail.com\"}",
+        "payload": "{\"name\": \"Fernanda\", \"customer-id\": \"0\", \"ecommerce-id\": \"904\", \"products-list\": {\"111\": 0, \"222\": 0, \"333\": \"1\"}, \"email\": \"rica72017@gmail.com\"}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E002",
+                    "error-description": "Afiliado com o parâmetro 0 não foi encontrado."
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"name\": \"MARCIO AYALA PEREIRA COSTA\", \"customer-id\": \"0\", \"ecommerce-id\": \"878\", \"products-list\": {\"111\": 0, \"222\": 0, \"333\": \"1\"}, \"email\": \"marcioayala1106@gmail.com\"}",
+        "payload": "{\"name\": \"MARCIO AYALA PEREIRA COSTA\", \"customer-id\": \"0\", \"ecommerce-id\": \"878\", \"products-list\": {\"111\": 0, \"222\": 0, \"333\": \"1\"}, \"email\": \"marcioayala1106@gmail.com\"}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E002",
+                    "error-description": "Afiliado com o parâmetro 0 não foi encontrado."
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"name\": \"Marcelo Moreira \", \"customer-id\": \"0\", \"ecommerce-id\": \"885\", \"products-list\": {\"111\": 0, \"222\": 0, \"333\": \"1\"}, \"email\": \"marcelo.bella.pos@gmail.com\"}",
+        "payload": "{\"name\": \"Marcelo Moreira \", \"customer-id\": \"0\", \"ecommerce-id\": \"885\", \"products-list\": {\"111\": 0, \"222\": 0, \"333\": \"1\"}, \"email\": \"marcelo.bella.pos@gmail.com\"}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E002",
+                    "error-description": "Afiliado com o parâmetro 0 não foi encontrado."
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"name\": \"Rubens Alberto\", \"customer-id\": \"0\", \"ecommerce-id\": \"815\", \"products-list\": {\"111\": 0, \"222\": 0, \"333\": \"1\"}, \"email\": \"raccaetano@terra.com.br\"}",
+        "payload": "{\"name\": \"Rubens Alberto\", \"customer-id\": \"0\", \"ecommerce-id\": \"815\", \"products-list\": {\"111\": 0, \"222\": 0, \"333\": \"1\"}, \"email\": \"raccaetano@terra.com.br\"}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E002",
+                    "error-description": "Afiliado com o parâmetro 0 não foi encontrado."
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"name\": \"Diego\", \"customer-id\": \"0\", \"ecommerce-id\": \"859\", \"products-list\": {\"111\": 0, \"222\": 0, \"333\": \"1\"}, \"email\": \"Diegodejesus.contato@hotmail.com\"}",
+        "payload": "{\"name\": \"Diego\", \"customer-id\": \"0\", \"ecommerce-id\": \"859\", \"products-list\": {\"111\": 0, \"222\": 0, \"333\": \"1\"}, \"email\": \"Diegodejesus.contato@hotmail.com\"}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E002",
+                    "error-description": "Afiliado com o parâmetro 0 não foi encontrado."
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"name\": \"Anderson\", \"customer-id\": \"0\", \"ecommerce-id\": \"831\", \"products-list\": {\"111\": 0, \"222\": 0, \"333\": \"1\"}, \"email\": \"and.goliveira@gmail.com\"}",
+        "payload": "{\"name\": \"Anderson\", \"customer-id\": \"0\", \"ecommerce-id\": \"831\", \"products-list\": {\"111\": 0, \"222\": 0, \"333\": \"1\"}, \"email\": \"and.goliveira@gmail.com\"}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E002",
+                    "error-description": "Afiliado com o parâmetro 0 não foi encontrado."
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Cibel-app",
+        "queue-targert": "sqs-prod-cibel-app-banktransfer",
+        "payload": "{\"bank-transfer-request\":{\"bank-code\":\"756\",\"agency-number\":\"3010\",\"agency-check-digit\":null,\"account-number\":\"12656\",\"account-check-digit\":\"0\",\"account-bank-id\":1055,\"name\":null,\"entry-code\":null,\"document-number\":null,\"amount\":0.42,\"transfer-type\":\"AV\",\"account-type\":\"CC\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E103",
+                    "error-description": "could not execute statement; SQL [n/a]; constraint [customer_name]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Cibel-app",
+        "queue-targert": "sqs-prod-cibel-app-banktransfer",
+        "payload": "{\"bank-transfer-request\":{\"bank-code\":\"756\",\"agency-number\":\"3010\",\"agency-check-digit\":null,\"account-number\":\"12656\",\"account-check-digit\":\"0\",\"account-bank-id\":1055,\"name\":null,\"entry-code\":null,\"document-number\":null,\"amount\":0.96,\"transfer-type\":\"AV\",\"account-type\":\"CC\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E103",
+                    "error-description": "could not execute statement; SQL [n/a]; constraint [customer_name]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Cibel-app",
+        "queue-targert": "sqs-prod-cibel-app-banktransfer",
+        "payload": "{\"bank-transfer-request\":{\"bank-code\":\"104\",\"agency-number\":\"3042\",\"agency-check-digit\":null,\"account-number\":\"0130003125\",\"account-check-digit\":\"2\",\"account-bank-id\":1000,\"name\":null,\"entry-code\":null,\"document-number\":null,\"amount\":0.14,\"transfer-type\":\"AV\",\"account-type\":\"CP\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E103",
+                    "error-description": "could not execute statement; SQL [n/a]; constraint [customer_name]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Cibel-app",
+        "queue-targert": "sqs-prod-cibel-app-banktransfer",
+        "payload": "{\"bank-transfer-request\":{\"bank-code\":\"104\",\"agency-number\":\"3042\",\"agency-check-digit\":null,\"account-number\":\"0130003125\",\"account-check-digit\":\"2\",\"account-bank-id\":1000,\"name\":null,\"entry-code\":null,\"document-number\":null,\"amount\":0.72,\"transfer-type\":\"AV\",\"account-type\":\"CP\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E103",
+                    "error-description": "could not execute statement; SQL [n/a]; constraint [customer_name]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Cibel-app",
+        "queue-targert": "sqs-prod-cibel-app-banktransfer",
+        "payload": "{\"bank-transfer-request\":{\"bank-code\":\"033\",\"agency-number\":\"3324\",\"agency-check-digit\":null,\"account-number\":\"010957763\",\"account-check-digit\":\"cc\",\"account-bank-id\":1102,\"name\":null,\"entry-code\":null,\"document-number\":null,\"amount\":0.64,\"transfer-type\":\"AV\",\"account-type\":\"CC\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E103",
+                    "error-description": "could not execute statement; SQL [n/a]; constraint [customer_name]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Cibel-app",
+        "queue-targert": "sqs-prod-cibel-app-banktransfer",
+        "payload": "{\"bank-transfer-request\":{\"bank-code\":\"033\",\"agency-number\":\"3324\",\"agency-check-digit\":null,\"account-number\":\"010957763\",\"account-check-digit\":\"cc\",\"account-bank-id\":1102,\"name\":null,\"entry-code\":null,\"document-number\":null,\"amount\":0.11,\"transfer-type\":\"AV\",\"account-type\":\"CC\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E103",
+                    "error-description": "could not execute statement; SQL [n/a]; constraint [customer_name]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Cibel-app",
+        "queue-targert": "sqs-prod-cibel-app-banktransfer",
+        "payload": "{\"bank-transfer-request\":{\"bank-code\":\"077\",\"agency-number\":\"0001\",\"agency-check-digit\":null,\"account-number\":\"12148229\",\"account-check-digit\":\"cj\",\"account-bank-id\":1103,\"name\":null,\"entry-code\":null,\"document-number\":null,\"amount\":0.23,\"transfer-type\":\"AV\",\"account-type\":\"CC\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E103",
+                    "error-description": "could not execute statement; SQL [n/a]; constraint [customer_name]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement"
+                }
+            }
+        ]
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Cibel-app",
+        "queue-targert": "sqs-prod-cibel-app-banktransfer",
+        "payload": "{\"bank-transfer-request\":{\"bank-code\":\"077\",\"agency-number\":\"0001\",\"agency-check-digit\":null,\"account-number\":\"12148229\",\"account-check-digit\":\"cj\",\"account-bank-id\":1103,\"name\":null,\"entry-code\":null,\"document-number\":null,\"amount\":0.4,\"transfer-type\":\"AV\",\"account-type\":\"CC\"}}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E103",
+                    "error-description": "could not execute statement; SQL [n/a]; constraint [customer_name]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement"
+                }
+            }
+        ]
+    }
+}
+
+
+
+{
+    "tracked-error": {
+        "protocol-type": "HTTP",
+        "error-origin-system": "Cibel-app",
+        "request-target": "http://sisap-app-service.prod-ms:8081/v1/documents/38836037836/bank-accounts/994/status-user-validation"
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "HTTP",
+        "error-origin-system": "Cibel-app",
+        "request-target": "http://sisap-app-service.prod-ms:8081/v1/documents/12758904829/bank-accounts/995/status-user-validation"
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "HTTP",
+        "error-origin-system": "Cibel-app",
+        "request-target": "http://sisap-app-service.prod-ms:8081/v1/documents/12758904829/bank-accounts/995/status-user-validation"
+    }
+}
+
+{
+    "tracked-error": {
+        "protocol-type": "HTTP",
+        "error-origin-system": "Cibel-app",
+        "request-target": "http://sisap-app-service.prod-ms:8081/v1/documents/38836037836/bank-accounts/994/status-user-validation"
+    }
+}
+//Reenviadas
+"payload": "{"posting-create":{"conciliated":true,"acquirerDiscountValue":0.36,"earlyPaymentNetValue":0.00,"earlyPaymentTaxValue":0.00,"authorizationCode":"LXN0V8","cardBrand":"MASTERCARD","customerId":668,"settleDate":null,"settleFutureDate":null,"netValue":39.64,"processingDate":"2018-04-26","productType":"CREDIT","reducerCrossFrontierValue":0.00,"terminalNumber":null,"installments":1,"transactionDate":"2018-04-25","transactionHour":"08: 40: 38","transactionNsu":100041409819,"transactionStatus":"TERMINATED","transactionValue":40.00,"truncatedCardNumber":"000516220XXXXXX6692"}}",
+{
+    "tracked-error": {
+        "protocol-type": "SQS",
+        "error-origin-system": "Libra-app",
+        "queue-origin": "{\"customerId\":1085,\"amount\":0.11,\"operationType\":\"DEB\",\"description\":\"Débito referente ao primeiro código de validação da conta bancária\",\"entryTypeName\":\"BANK_TRANSFER_VALIDATION\",\"entryStatus\":\"SET\"}",
+        "payload": "{\"customerId\":1085,\"amount\":0.11,\"operationType\":\"DEB\",\"description\":\"Débito referente ao primeiro código de validação da conta bancária\",\"entryTypeName\":\"BANK_TRANSFER_VALIDATION\",\"entryStatus\":\"SET\"}",
+        "erros": [
+            {
+                "error": {
+                    "error-code": "E002",
+                    "error-description": "could not execute statement; SQL [n/a]; constraint [uniq_customer]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement"
+                }
+            }
+        ]
+    }
+}
